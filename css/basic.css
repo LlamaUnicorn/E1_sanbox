@@ -22,3 +22,41 @@
     background-color: lime;
     color: #00FF00;
 }
+
+h1 {color: green}
+
+p {color: darkgreen}
+
+hp  {
+    float: right;
+    margin: 0 0 0 15px;
+}
+
+body {
+    background-color: #DCDCDC;
+}
+
+div {
+    background-color: #DCDCDC;
+}
+
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+    /*background: #FF4444; !*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*!*/
+    /*height: 50px; !*задаем высоту*!*/
+}
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/;
+    /*background: lightgreen; !*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*!*/
+    /*!*color:#fff; !*меняем цвет ссылок*!*!*/
+    /*!*padding:0px 15px; !*добавляем отступ*!*!*/
+    /*!*line-height:50px; !*ровняем меню по вертикали*!*!*/
+    /*display: block;*/
+    /*!*border-right: 1px solid grey; !*добавляем бордюр справа*!*!*/
+    /*-moz-transition: all 0.3s 0.01s ease; !*делаем плавный переход*!*/
+    /*-o-transition: all 0.3s 0.01s ease;*/
+    /*-webkit-transition: all 0.3s 0.01s ease;*/
+
+}
